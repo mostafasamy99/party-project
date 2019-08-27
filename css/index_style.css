@@ -1,0 +1,212 @@
+.home{
+    width: 100%;
+    height: 600px;
+   
+    position: relative;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+        
+}
+.home h1{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+    
+}
+.home p{
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    color: white;
+}
+.overlayer{
+    background-color: rgba(170,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.navBar-box
+{
+    width: 20%;
+    
+ position: absolute;
+    
+    top: 30%;
+    left: -160px;
+    z-index: 1;
+  
+}
+
+.insideNavBar-box
+{
+     
+    background-color: #555;
+        padding: 40px;
+    
+    float: left;
+}
+
+.navBar-box ul li
+{
+    width: 40px;
+    height: 70px;
+    color: white;
+    
+    
+    cursor: pointer
+}
+.navBar-box ul li a:hover{
+    color: red;
+}
+.navBar-box ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navBar-box ul
+{
+    list-style-type: none;
+}
+
+.open{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+.open:hover{
+    color: red;
+}
+.MYaccordion{
+   width: 50%;
+    margin-left: 25%;
+    background-color: mediumvioletred;
+    margin-top: 5%;
+       
+}
+.MYaccordion h3{
+    background-color: mediumvioletred;
+    cursor: pointer;
+    
+}
+.MYaccordion p{
+    background-color: #ccc;
+    display: none;
+}
+
+
+
+
+#timerDemo{
+    background-image: url(../images/invitation-2508607__340.jpg);
+      background-repeat: no-repeat; 
+   
+ background-size: 100% 100%;
+   height: 250px;
+    position: relative;
+    color: white;
+}
+
+
+
+.overlayer2{
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+    height: 100%;
+   position: absolute;
+        left: 0;
+    top: 0;
+   
+}
+
+.timerDay{
+     
+  width: 120px;
+  border: 3px solid green;
+  padding: 50px;
+  margin: 20px;
+    margin-left: 30%;
+    display: inline-block;
+}
+.timerHours{
+     
+  width: 120px;
+  border: 3px solid green;
+  padding: 50px;
+  margin: 20px;
+    display: inline-block;
+}
+.timerMin{
+    
+  width: 120px;
+  border: 3px solid green;
+  padding: 50px;
+  margin: 20px;
+    display: inline-block;
+}
+
+.timerSec{
+    
+  width: 120px;
+  border: 3px solid green;
+  padding: 50px;
+  margin: 20px;
+    display: inline-block;
+}
+
+
+
+
+input 
+{
+width: 90%;
+    height: 40px;
+    border: gray solid 1px;
+    border-radius: 5px;
+    margin: 15px 30px 15px 0px;
+    padding: 10px;
+}
+
+textarea
+{
+    width: 90%;
+    height: 120px;
+    border: gray solid 1px;
+    border-radius: 5px;
+    margin: 15px 15px 30px 0px;
+    padding: 10px;
+}
+.hi{
+    background-color: #ec3237;
+    padding: 5px;
+}
+.icons{
+    font-size: 25px;
+    display: inline-block;
+     
+    width: 100%;
+     display: flex;
+     margin: 10px;
+     padding: 10px;
+    
+}
+.icon{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: red;
+    
+}
+.new{
+    color: red;
+}
+
+
+
